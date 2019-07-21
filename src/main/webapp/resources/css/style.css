@@ -1,3 +1,138 @@
-#logo-img {
-    max-height: 35px;
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+div,p,span,h1,h2,h3,h4,h5,h6,textarea {
+    font-family: 'Exo', sans-serif;
 }
+
+.section-title {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    
+    display: block;
+    background: #1F548A;
+    color:white;
+}
+
+.box {
+    display: block;
+    background: #eeeeee;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+#logo {
+    max-height: 40px;
+}
+
+.navbar{
+    background:#1F548A;
+}
+
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.navbar img{
+    height:80px;
+}
+.navbar form{
+    margin-left:90px;
+}
+.navbar input{
+    border-radius:0px;
+}
+
+.navbar button{
+    border-radius:0px;
+}
+
+.navbar .nav-item{
+    margin-left:10px;
+}
+
+
+/* about us */
+
+#about-us .jumbotron{
+    position: relative;
+}
+
+#cancel-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;;
+}
+
+#cancel-btn img {
+    max-width: 40px;
+    opacity: 0.3;
+}
+
+#cancel-btn img:hover {
+    opacity: 1;
+}
+
+#popular ul li{
+    margin-top:10px;
+}
+
+#popular .card{
+    border:none;
+}
+
+footer{
+    background:#6C757D;
+    color:white;
+    width:100%;
+    height:150px;
+}
+
+#footer-links a{
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+#main img{
+    width:100%;
+    overflow: hidden;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+    
+}
+
+
+
+/* citizenship page */
+
+.li-disc li{
+    list-style-type: disc;
+}
+
+textarea{
+    width: 100%;
+    background: #1F548A;
+}
+

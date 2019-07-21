@@ -1,0 +1,25 @@
+<%-- 
+    Document   : js
+    Created on : Jun 30, 2019, 1:15:53 PM
+    Author     : roslm
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib  prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <script src="<c:url value="/resources/admin/js/jquery-1.11.1.min.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/bootstrap.min.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/chart.min.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/chart-data.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/easypiechart.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/easypiechart-data.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/bootstrap-datepicker.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/bootstrap-table.js"/>"></script>
+        <script src="<c:url value="/resources/admin/js/canvasjs.min.js"/>"></script>
+    
+    </body>
+</html>

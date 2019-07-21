@@ -11,7 +11,7 @@
     
 <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/listmanagementsystem"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/badapatra"/>
         <property name="username" value="root" />
         <property name="password" value="" />
     </bean>
@@ -36,4 +36,14 @@
     <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
+    
+    
+    <bean id="Category" class="com.bp.models.Category"></bean>
+    <bean id="Document" class="com.bp.models.Document"></bean>
+    <bean id="News" class="com.bp.models.News"></bean>
+    <bean id="LikeCounts" class="com.bp.models.LikeCounts"></bean>
+    <bean id="SubDocument" class="com.bp.models.SubDocument"></bean>
+    <bean id="SessionCount" class="com.bp.models.SessionCount"></bean>
+    <bean id="user_details" class="com.bp.models.UserDetails"></bean>
+    <bean id="user_login" class="com.bp.models.UserRole"></bean>
 </beans>
